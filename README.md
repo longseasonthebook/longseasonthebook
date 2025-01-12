@@ -7,7 +7,7 @@ The book is currently in pre-publication. Links will be provided soon!
 
 You can reach me via:
 
-Website: longseasonthebook.github.io
+Website: https://longseasonthebook.github.io
 
 Thank you for supporting his work in advance! May you find peace and steadiness, in a life full of twists and turns.
 
