@@ -66,10 +66,10 @@ body {
 }
 
 header {
-    max-width: 500px; /* Restricts the header width */
-    margin: 0 auto; /* Centers the header horizontally */
-    text-align: center; /* Centers the text inside the header */
-    padding: 20px 0; /* Optional: Adds space above and below the header */
+    max-width: 500px; 
+    margin: 0 auto; 
+    text-align: center; 
+    padding: 20px 0; 
 }
 
 header h1 {
@@ -84,9 +84,9 @@ header p {
 }
 
 .blog-dialog {
-    background-color: #028a0f; /* Green background */
-    color: white;             /* White text for contrast */
-    padding: 15px 20px;       /* Padding for spacing */
+    background-color: #028a0f; 
+    color: white;             
+    padding: 10px 10px;       /* Padding for spacing */
     border-radius: 10px;      /* Rounded corners for a dialog look */
     margin-bottom: 20px;      /* Space below the dialog box */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
