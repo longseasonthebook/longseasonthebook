@@ -6,6 +6,7 @@ book, he tackles his life's struggles, while giving the reader a perspective of 
 The book is currently in pre-publication. Links will be provided soon! 
 
 You can reach me via:
+Website: longseasonthebook.github.io
 
 Thank you for supporting his work in advance! May you find peace and steadiness, in a life full of twists and turns.
 
