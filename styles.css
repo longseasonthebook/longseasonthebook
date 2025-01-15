@@ -301,7 +301,7 @@ contact-button:active {
 }
 
 /* Back to Top Button */
-#back-to-top {
+#bi bi-arrow-up {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -314,7 +314,7 @@ contact-button:active {
     cursor: pointer;
     display: none;
 }
-#back-to-top:hover {
+#bi bi-arrow-up:hover {
     background: #026f0d;
 }
 
