@@ -7,7 +7,7 @@ window.onscroll = function () {
 };
 
 // Back to Top Button
-const backToTop = document.getElementById("back-to-top");
+const backToTop = document.getElementById("bi bi-arrow-up");
 window.addEventListener("scroll", () => {
     if (window.scrollY > 200) {
         backToTop.style.display = "block";
