@@ -53,8 +53,8 @@
 }
 
 .call-to-action:hover {
-    background-color: #45a050;
-
+    background-color: #45a050; 
+    transform: translateY(-3px);
 }
 
 footer a:hover {
