@@ -122,7 +122,8 @@ header p {
     transition: color 0.3s ease;
 }
 #navbar a:hover {
-    color: #028a0f;
+    background-color: #028a0f;
+    color: #fff;
 }
 
 .hero .video-container {
