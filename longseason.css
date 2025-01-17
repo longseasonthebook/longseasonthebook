@@ -49,7 +49,12 @@
     font-size: 16px;
     border-radius: 4px;
     text-decoration: none;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.call-to-action:active {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
 }
 
 .call-to-action:hover {
