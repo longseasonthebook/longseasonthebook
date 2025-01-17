@@ -7,14 +7,16 @@ The book is currently in pre-publication. Links will be provided soon!
 
 You can reach me via:
 
-Website: https://longseasonthebook.github.io/longseasonthebook
+Website: https://longseasonthebook.com
 
 Thank you for supporting his work in advance! May you find peace and steadiness, in a life full of twists and turns.
 
 Keep longing for a better season,
 Jaden Orogo
+
+P.S.: this website was made by Eon Orogo. To know more about him, check out his Facebook page and inquire more about his offers
+Facebook: https://www.facebook.com/profile.php?id=61564783565468&_rdc=2&_rdr#
 <!--
-**longseasonthebook/longseasonthebook** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
