@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Long Season</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=keyboard_arrow_up">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <script src="collapsible.js" defer></script>
+    <script src="interactivity.js" defer></script>
+    <script src="nav-toggle.js" defer></script>
+    <style>
+        .blog-dialog {
+            background-color: #E4E0BC; 
+            color: #4E2E22;             
+            padding: 15px 20px;       
+            border-radius: 10px;      
+            margin-bottom: 20px;      
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            text-align: center;       
+            justify-content: center;
+        }
+
+        .blog-dialog p {
+            color: #4E2E22;
+            margin-top: 10px;         
+            font-size: 16px;
+            font-weight: normal;  
+            text-align: center;
+            justify-content: center;
+        }
+
+        h3 {
+            display: flex;
+            color: #4E2E22;
+            background-color: #E4E0BC; /* Light grey background */
+            border-radius: 15px; /* Rounded corners */
+            padding: 10px 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+            justify-content: center;
+            width: 300px;
+            align-items: center;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        #books {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .book-item {
+            display: inline-block;
+            background-color: #E4E0BC;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            width: 350px;
+            text-align: center;
+        }
+
+        .book-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            border: #85993F;
+            border-style: solid;
+            border-width: 2px;
+        }
+
+        .book-item p {
+            margin-top: 10px;
+            color: #4E2E22;
+        }
+
+        .book-item a {
+            display: inline-block;
+            background-color: #4E2E22;
+            color: #E4E0BC;
+            padding: 10px 20px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 16px;
+            margin-top: 15px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        }
+
+        .book-item a:hover {
+            transform: translateY(-3px);
+            background-color: #85993F;
+        }
+    </style>
+</head>
+<body>
+    <div id="progress-bar"></div>
+    <div class="loader"></div>
+
+    <header>
+        <div class="blog-dialog">
+            <h1>Euri Jaden Orogo</h1>
+            <p>Author of Long Season: A long and winding journey into life</p>
+        </div>
+    </header>
+
+    <button id="nav-toggle">☰ Menu</button>
+
+    <nav>
+        <menu>
+            <menuitem><a href="index.html#home">Home</a></menuitem>
+            <menuitem><a href="#about">About</a></menuitem>
+            <menuitem><a href="books.html">Books</a></menuitem>
+            <menuitem><a href="blog.html">Blog</a></menuitem>
+            <menuitem><a href="#contact">Contact</a></menuitem>
+        </menu>
+    </nav>
+
+    <section id="books">
+        <h3>Books</h3>
+        <div class="book-item">
+            <img src="/media/revisedlongseasonbookcover.jpg" alt="Long Season Book">
+            <p>Long Season: A long and winding journey into life (2024)</p>
+            <a href="longseason.html">Learn More</a>
+        </div>
+        <!-- Add more book items as needed -->
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Euri Jaden Orogo. All rights reserved.</p>
+        <a class="socmed-icons" href="https://www.facebook.com/profile.php?id=61571930235133" target="_blank">
+            <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a class="socmed-icons" href="https://www.instagram.com/the.undeniable_dialect/" target="_blank">
+            <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a class="socmed-icons" href="https://www.youtube.com/@TheUndeniableDialect" target="_blank">
+            <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+    </footer>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
