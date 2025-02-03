@@ -11,7 +11,7 @@ const backToTopButton = document.querySelector('.back-to-top');
 
 // Show or hide the button based on scroll position
 window.addEventListener('scroll', () => {
-    if (window.scrollY > 300) { // Show button after scrolling 300px
+    if (window.scrollY > 600) { // Show button after scrolling 300px
         backToTopButton.style.display = 'inline-flex';
     } else {
         backToTopButton.style.display = 'none';
