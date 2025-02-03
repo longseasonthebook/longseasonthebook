@@ -6,15 +6,23 @@ window.onscroll = function () {
     document.getElementById("progress-bar").style.width = scrollPercent + "%";
 };
 
-// Back to Top Button
-const backToTop = document.getElementById("");
-window.addEventListener("scroll", () => {
-    if (window.scrollY > 200) {
-        backToTop.style.display = "block";
+// Back to Top Button Functionality
+const backToTopButton = document.querySelector('.back-to-top');
+
+// Show or hide the button based on scroll position
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTopButton.style.display = 'inline-flex';
     } else {
-        backToTop.style.display = "none";
+        backToTopButton.style.display = 'none';
     }
 });
-backToTop.addEventListener("click", () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+
+// Smooth scroll to top when the button is clicked
+backToTopButton.addEventListener('click', (e) => {
+    e.preventDefault(); // Prevent default anchor behavior
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Smooth scroll animation
+    });
 });
