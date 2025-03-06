@@ -131,22 +131,26 @@
 
     <header>
         <div class="blog-dialog">
-        <h1>Euri Jaden</h1>
+        <h1>Euri Jaden Orogo</h1>
         <p>Author of Long Season: A long and winding journey into life</p>
     </div>
     </header>
     
-    <button id="nav-toggle">☰ Menu</button>
-
-    <nav>
-        <menu>
-            <menuitem><a href="index.html#home">Home</a></menuitem>
-            <menuitem><a href="index.html#about">About</a></menuitem>
-            <menuitem><a href="books.html">Books</a></menuitem>
-            <menuitem><a href="blog.html">Blog</a></menuitem>
-            <menuitem><a href="index.html#contact">Contact</a></menuitem>
-        </menu>
-    </nav>
+    <button class="menu-toggle">☰ Menu</button>
+    
+    <div class="overlay"></div>
+    <a href="#" class="back-to-top">
+        <span class="material-symbols-outlined">keyboard_arrow_up</span>
+    </a>
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#book-collection">Books</a>
+            <a href="blog.html">Blog</a>
+            <a href="index.html#contact">Contact Me</a>
+        </nav>
+    
+    <div class="overlay" id="overlay"></div>
 
     <br>
         <div class="blog-dialog">
@@ -212,7 +216,22 @@
             </div>
         </div>
     </div>
-    
+
+    <br> <br>
+
+    <div class="blog-post">
+        <h4>Author Instagram page</h4>
+        <div class="collapsible-box">
+            <div class="collapsible-header">
+                <span>Read More</span>
+                <span class="arrow">&#9660;</span>
+            </div>
+            <div class="content">
+                <p>Just launched a new Instagram page where Jaden Orogo will post anything about his book, as well as where
+                    you can buy his book.</p>
+            </div>
+        </div>
+    </div>
     </section>
     
     <br>
@@ -222,7 +241,7 @@
         <a class="socmed-icons" href="https://www.facebook.com/profile.php?id=61571930235133" target="_blank">
             <ion-icon name="logo-facebook"></ion-icon>
         </a>
-        <a class="socmed-icons" href="https://www.instagram.com/the.undeniable_dialect/" target="_blank">
+        <a class="socmed-icons" href="https://www.instagram.com/jaden.r.orogo/" target="_blank">
             <ion-icon name="logo-instagram"></ion-icon>
         </a>
         <a class="socmed-icons" href="https://www.youtube.com/@TheUndeniableDialect" target="_blank">
