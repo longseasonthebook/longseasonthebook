@@ -1,40 +1,38 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const navToggle = document.getElementById("nav-toggle");
-    const nav = document.querySelector("nav");
-    const overlay = document.createElement("div");
-    const mainContent = document.querySelector("body");
-    const menuItems = document.querySelectorAll("nav a");
-    
-    // Add overlay to the body
-    overlay.className = "overlay";
-    document.body.appendChild(overlay);
+document.addEventListener("DOMContentLoaded", () => {
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navMenu = document.querySelector(".nav-menu");
+    const overlay = document.querySelector(".overlay");
+    const navLinks = document.querySelectorAll(".nav-menu a");
 
-    // Show the nav toggle button after the page has loaded
-    document.body.classList.add("loaded");
+    // Function to open menu
+    function openMenu() {
+        navMenu.classList.add("active");
+        overlay.classList.add("active");
+    }
 
-    // Toggle the menu and overlay visibility
-    navToggle.addEventListener("click", function () {
-        nav.classList.toggle("open");
-        overlay.classList.toggle("visible");
+    // Function to close menu
+    function closeMenu() {
+        navMenu.classList.remove("active");
+        overlay.classList.remove("active");
+    }
 
-    navToggle.addEventListener("click", function () {
-        if (nav.classList.contains("open")) {
-                mainContent.classList.add("dimmed");
+    // Toggle menu when button is clicked
+    menuToggle.addEventListener("click", () => {
+        if (navMenu.classList.contains("active")) {
+            closeMenu();
         } else {
-                mainContent.classList.remove("dimmed");
+            openMenu();
         }
-        });
     });
 
-    // Close menu when clicking outside
-    overlay.addEventListener("click", function () {
-        nav.classList.remove("open");
-        overlay.classList.remove("visible");
+    // Close menu when clicking on a nav item
+    navLinks.forEach(link => {
+        link.addEventListener("click", closeMenu);
     });
-    menuItems.forEach(item => {
-        item.addEventListener("click", function () {
-            nav.classList.remove("open"); // Close the menu
-            mainContent.classList.remove("dimmed"); // Restore opacity
-        });
-    });
+
+    // Close menu when clicking outside the nav
+    overlay.addEventListener("click", closeMenu);
+
+    // Ensure menu is closed on page load
+    closeMenu();
 });
