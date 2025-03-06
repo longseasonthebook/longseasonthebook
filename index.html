@@ -20,54 +20,33 @@
 
     <header id="home">
         <div class="blog-dialog">
-            <h1>Euri Jaden</h1>
+            <h1>Euri Jaden Orogo</h1>
             <p>Author of Long Season: A long and winding journey into life</p>
         </div>
     </header>
 
-    <button id="nav-toggle">☰ Menu</button>
+    <br> <br>
 
-    <nav>
-        <menu>
-            <menuitem><a href="index.html#home">Home</a></menuitem>
-            <menuitem><a href="#about">About</a></menuitem>
-            <menuitem><a href="books.html">Books</a></menuitem>
-            <menuitem><a href="blog.html">Blog</a></menuitem>
-            <menuitem><a href="#contact">Contact</a></menuitem>
-        </menu>
-    </nav>
+    <button class="menu-toggle">☰ Menu</button>
 
+        <div class="overlay">
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#book-collection">Books</a>
+            <a href="blog.html">Blog</a>
+            <a href="index.html#contact">Contact Me</a>
+        </nav>
+        </div>
+        
     <div class="overlay" id="overlay"></div>
       
-    <section class="hero">
-        <div class="hero-content">
-            <!-- QR Code Container -->
-            <div class="qr-container">
-                <p>Scan the QR code below to see more of Jaden Orogo</p>
-                <a href='https://me-qr.com' border='0' style='cursor:pointer;display:block'>
-                    <img src='https://meqr.fsn1.your-objectstorage.com/qr/166057348.png?v=1738408996'
-                        alt='Create qr code for free'>
-                </a>
-            </div>
-            <!-- Video Container -->
-            <div class="video-container">
-                <div class="video-box">
-                    <h3>Click here to check out the Long Season Book Trailer on YouTube</h3>
-                    <a href="https://youtu.be/dAogdzJ7Lsk" target="_blank" class="watch-now-button">Watch Now</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section id="books" class="featured">
-        <div class="book-box">
-            <h2>Featured Book</h2>
-            <h3>Long Season: A long and winding journey into life</h3>
-            <a href="books.html" class="button">Go to Catalog</a>
-        </div>
-    </section>
+    <br>
 
     <section id="about" class="about">
+        <a href="#" class="back-to-top">
+            <span class="material-symbols-outlined">keyboard_arrow_up</span>
+        </a>
         <div class="parallax">
             <div class="dialog-box">
                 <h2>About Jaden</h2>
@@ -80,6 +59,28 @@
             </div>
         </div>
     </section>
+
+    <br> <br>
+
+    <section id="book-collection" class="book-section">
+        <div class="book-container">
+            <div class="image-container">
+                <img src="media/revisedlongseasonbookcover.jpg" alt="Long Season Book Cover">
+            </div>
+            <div class="text-box">
+                <h2>Long Season: A long and winding journey into life</h2>
+                <p>Long Season is an introspective journey through the life of Euri Jaden Orogo. In this deeply personal
+                    book, Jaden shares the challenges, triumphs, and profound lessons he's learned along the way.
+                    Written with raw honesty and emotional depth, Long Season offers readers a chance to reflect on
+                    their own journeys.</p>
+                <p>Available now! Click below to get your copy and immerse yourself in a story of growth, faith, and
+                    resilience.</p>
+                <a href="https://a.co/d/4XBqJpX" target="_blank" class="call-to-action">Get Your Copy</a>
+            </div>
+        </div>
+    </section>
+
+    <br> <br>
 
     <section id="contact" class="contact">
         <h2>Contact Me</h2>
@@ -94,22 +95,20 @@
         </form>
     </section>
 
+    <br> <br>
+
     <footer>
         <p>&copy; 2025 Euri Jaden Orogo. All rights reserved.</p>
         <a class="socmed-icons" href="https://www.facebook.com/profile.php?id=61571930235133" target="_blank">
             <ion-icon name="logo-facebook"></ion-icon>
         </a>
-        <a class="socmed-icons" href="https://www.instagram.com/the.undeniable_dialect/" target="_blank">
+        <a class="socmed-icons" href="https://www.instagram.com/jaden.r.orogo/" target="_blank">
             <ion-icon name="logo-instagram"></ion-icon></ion-icon>
         </a>
         <a class="socmed-icons" href="https://www.youtube.com/@TheUndeniableDialect" target="_blank">
             <ion-icon name="logo-youtube"></ion-icon>
         </a>
     </footer>
-
-    <a href="#" class="back-to-top">
-        <span class="material-symbols-outlined">keyboard_arrow_up</span>
-    </a>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
